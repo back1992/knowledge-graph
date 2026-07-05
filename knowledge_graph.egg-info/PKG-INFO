@@ -1,8 +1,0 @@
-Metadata-Version: 2.4
-Name: knowledge-graph
-Version: 1.0.0
-Summary: Build, query, and visualize knowledge graphs from extracted relationships
-Requires-Python: >=3.10
-Requires-Dist: networkx<4.0,>=3.0
-Provides-Extra: viz
-Requires-Dist: matplotlib<4.0,>=3.5; extra == "viz"

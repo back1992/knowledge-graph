@@ -1,4 +1,0 @@
-networkx<4.0,>=3.0
-
-[viz]
-matplotlib<4.0,>=3.5
