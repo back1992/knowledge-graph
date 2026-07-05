@@ -1,0 +1,2 @@
+[console_scripts]
+knowledge-graph = knowledge_graph.cli:main

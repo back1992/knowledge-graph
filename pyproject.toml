@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "knowledge-graph"
+version = "1.0.0"
+description = "Build, query, and visualize knowledge graphs from extracted relationships"
+requires-python = ">=3.10"
+dependencies = [
+    "networkx>=3.0,<4.0",
+]
+
+[project.optional-dependencies]
+viz = [
+    "matplotlib>=3.5,<4.0",
+]
+
+[project.scripts]
+knowledge-graph = "knowledge_graph.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["knowledge_graph*"]
